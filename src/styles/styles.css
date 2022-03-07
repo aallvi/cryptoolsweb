@@ -1,0 +1,55 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* GLOBALES */
+
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,h2,h3 {
+    font-weight: 900;
+    font-family: var(--fuenteSecundaria);
+    margin: calc(var(--separacion)/2) 0 ;
+}
+
+h1 {
+    font-size: 4.4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 2.8rem;
+}
+
+/* IMAGENES RESPONSIVE */
+
+
+img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* utilidades */
+
+.text-center {
+    text-align: center;
+}
