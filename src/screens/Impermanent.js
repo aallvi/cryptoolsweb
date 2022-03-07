@@ -155,9 +155,12 @@ export const Impermanent = () => {
                <p  className='resultadosTitulo' >Resultados</p>
 
                <div className='resultadoContainer' >
+                   <div className='inversionToken' >
+                   <p>Inversion Token A: <span>{inversion/2}$</span>   </p>
+                   <p className='segundo' >Inversion Token B: <span>{inversion/2}$</span> </p>
 
-                   <p>Inversion Token A: <span>{inversion/2}$</span>- Inversion Token B: <span>{inversion/2}$</span> </p>
-
+                   </div>
+                   
                     <div className='resultado' > 
 
                     <p>Valor si haces Hold <span>${valorHold.toFixed(0)} </span>  </p>
