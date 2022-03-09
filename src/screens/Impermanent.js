@@ -79,7 +79,7 @@ export const Impermanent = () => {
       <div className='fondo' >
 
       
-      <div className='container' >
+      <div className='container animate__animated animate__fadeIn' >
 
       <p className='label' >Liquidity Provider</p>
 
@@ -175,7 +175,7 @@ export const Impermanent = () => {
               
               </> :
 
-              <p>Ingresa precios validos para ver el resultado</p>
+              <p className='Alert'>Ingresa precios validos para ver el resultado</p>
            }
 
 

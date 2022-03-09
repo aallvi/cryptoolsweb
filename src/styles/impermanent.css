@@ -24,9 +24,9 @@ label {
    width: 37rem;
    margin: 0 auto;
    border-radius: 40px;
-   margin-top: 5rem;
-   margin-bottom: 5rem;
-   background-color: rgb(187, 184, 184);
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   background-color: rgb(253, 251, 251);
    border-style: solid;
    border-width:2px;
    border-color: blue;
@@ -47,7 +47,8 @@ label {
        width: 500px;
        margin: 0 auto;
        border-radius: 40px;
-       margin-top: 100px;
+       margin-top: 3rem;
+       margin-bottom: 3rem;
        background-color: rgba(248, 248, 248, 0.979);
        border-style: solid;
        border-width:2px;
@@ -62,7 +63,7 @@ label {
 
 input { 
     border: 1px solid blue;
-    width: 100px;
+    width: 120px;
 }
 
 
@@ -106,7 +107,7 @@ input {
 
 .label {
     
-        font-size: 24px;
+        font-size: 2.2rem;
         font-weight: bold;
         color:black;
        
@@ -117,11 +118,11 @@ input {
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-bottom: 10px;
+   margin-bottom: 0.5rem;
 
 }
 .resultadoContainer p {
-font-size: 2.1rem;
+font-size: 2rem;
 
 }
 
@@ -129,7 +130,7 @@ font-size: 2.1rem;
 .resultado p{
     margin: 0;
     padding: 6px;
-    font-size: 2.3rem;
+    font-size: 2rem;
     
 }
 
@@ -140,6 +141,10 @@ span {
 
 .resultadosTitulo {
     font-size: 22px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-color: blue;
+    border-bottom: 1px solid blue ;
 }
 
 
@@ -165,3 +170,9 @@ span {
     
  
 } 
+
+
+.Alert {
+    font-size: 2rem;
+    text-align: center;
+}
