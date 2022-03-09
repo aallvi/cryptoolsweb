@@ -3,7 +3,7 @@
     text-align: center;
     color: white;
     margin: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     padding: 0;
 }
 .textoCopyright{
@@ -20,9 +20,25 @@
     border-color: white;
     background-color: blue;
     width: 40rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 20px 2px rgba(255,255,255,0.13);
+    border-color: rgb(0, 0, 0);
+
 }
 
 .link {
     
     color: white;
+}
+
+.contenedorCopy{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contenedorCopy img{
+    margin-left: 0.5rem;
+    width: 20px;
+    height: 20px;
 }
