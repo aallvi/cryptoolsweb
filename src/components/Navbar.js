@@ -14,7 +14,7 @@ export const Navbar = () => {
               isActive ? 'activeClassName' : 'BotonNav'
             }
           >
-            Precio Criptomonedas
+            Precios Criptomonedas
           </NavLink>
           
           </li>
