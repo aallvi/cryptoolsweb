@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Select from 'react-select'
-export const Formulario = ({moneda,setMoneda,criptomoneda,setCriptoMoneda,guardarConsultarAPI,setInfo}) => {
+
+
+export const FormularioHisto = ({moneda,setMoneda,criptomoneda,setCriptoMoneda,guardarConsultarAPI,setInfo}) => {
 
     const [criptodata, setCriptoData] = useState([])
 
@@ -101,7 +103,7 @@ export const Formulario = ({moneda,setMoneda,criptomoneda,setCriptoMoneda,guarda
       console.log(selectedOption)
 
   return (
-    <div className='animate__animated animate__fadeIn' >
+    <div className='animate__animated animate__fadeIn'>
 
         <label>Moneda Nacional</label>
 

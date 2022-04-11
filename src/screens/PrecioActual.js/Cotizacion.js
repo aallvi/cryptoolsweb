@@ -10,12 +10,12 @@ export const Cotizacion = ({resultado,criptomoneda,info}) => {
   const url = `https://www.cryptocompare.com/${logo}`
 
   return (
-    <div className='contenedorCotizacion' >
+    <div className='contenedorCotizacion ' >
 
     <p> Precio Actual:  {resultado[0].PRICE}</p>
     <p> Variacion en 24h: {resultado[0].CHANGEPCTDAY}%</p>
    
-   <div className='contenedorIMG' >
+   <div className='contenedorIMG ' >
    <img src={url} width={150} height={200} />
 
    </div>

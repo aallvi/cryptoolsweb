@@ -49,7 +49,7 @@ export const PrecioCripto = () => {
    
   }, [consultarAPI])
 
-  const componente = cargando ? <p>Cargando..</p> : <Cotizacion resultado={resultado} criptomoneda={criptomoneda} info={info} guardarConsultarAPI={guardarConsultarAPI} consultarAPI={consultarAPI} />
+   const componente = cargando ? <p>Cargando..</p> : <Cotizacion resultado={resultado} criptomoneda={criptomoneda} info={info} guardarConsultarAPI={guardarConsultarAPI} consultarAPI={consultarAPI} />
 
    console.log('resultado',resultado)
 
@@ -63,8 +63,9 @@ export const PrecioCripto = () => {
 
 
     <Formulario moneda={moneda} setMoneda={setMoneda} criptomoneda={criptomoneda} setCriptoMoneda={setCriptoMoneda} guardarConsultarAPI={guardarConsultarAPI} setInfo={setInfo}  />
-
-    <Cotizacion resultado={resultado} criptomoneda={criptomoneda} info={info} guardarConsultarAPI={guardarConsultarAPI} consultarAPI={consultarAPI} />
+   
+   {componente}
+    {/* <Cotizacion resultado={resultado} criptomoneda={criptomoneda} info={info} guardarConsultarAPI={guardarConsultarAPI} consultarAPI={consultarAPI} /> */}
 
      
     </div>

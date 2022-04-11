@@ -1,0 +1,33 @@
+.tit{
+    font-size: 30px;
+}
+
+
+.contenedorCotizacionHisto{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 1px solid blue;
+
+
+}
+
+.contenedorCotizacionHisto p {
+    font-size: 17px;
+}
+.contenedorCotizacionHisto span {
+    font-size: 18px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.contenedor2anos p{
+     font-size: 19px;
+}
+.contenedor2anos span{
+     color: green;
+}
