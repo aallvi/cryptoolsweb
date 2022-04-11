@@ -5,6 +5,7 @@ import { Calculadora } from './screens/Calculadora'
 import { Impermanent } from './screens/Impermanent'
 import 'animate.css';
 import { Footer } from './components/Footer'
+import { PrecioCripto } from './screens/PrecioActual.js/PrecioCripto'
 
 export const AppRouter = () => {
 
@@ -19,6 +20,7 @@ export const AppRouter = () => {
     <Routes>
         <Route path="/" element={<Impermanent />} />
         <Route path="calculadora" element={<Calculadora />} />
+        <Route path="precio-criptomonedas" element={<PrecioCripto />} />
       </Routes>
     
     

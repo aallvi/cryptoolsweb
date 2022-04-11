@@ -45,7 +45,7 @@ h3{
 img {
     max-width: 100%;
     display: block;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
 }
 
@@ -53,4 +53,41 @@ img {
 
 .text-center {
     text-align: center;
+}
+
+.contenedorCotizacion{
+    /* background-color: red; */
+}
+
+.contenedorIMG{
+   /* background-color: aqua; */
+   width: fit-content;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+
+
+.botonCotizar{
+    background-color: blue;
+    cursor: pointer;
+    border:1px solid blue;
+    border-radius: 20px;
+    
+   
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.botonCotizar p{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
